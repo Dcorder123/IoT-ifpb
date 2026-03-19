@@ -1,0 +1,25 @@
+# ESP-IDF / CMake build artifacts
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+
+# Keep optional defaults if created manually
+!sdkconfig.defaults
+
+# Managed/Downloaded dependencies
+managed_components/
+
+# Editor/OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local docs/assets not required for build
+*.pdf
